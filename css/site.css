@@ -1,3 +1,15 @@
 body{
-   background-color: rgba(78, 75, 75, 0);
+   font-family: "Sofia", sans-serif;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+
+
+.div{
+   text-align: center;
 }

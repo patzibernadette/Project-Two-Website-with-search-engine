@@ -1,15 +1,39 @@
-body{
-   font-family: "Sofia", sans-serif;
+body {
+  font-family: "Sofia", sans-serif;
+  color: white;
 }
 
-h1{
-  color:white;
+h1 {
+  color: white;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 
 
-.div{
-   text-align: center;
+.div {
+  text-align: center;
+}
+
+
+.image-gallery {
+  display: grid;
+  place-items: center;
+  /* Centers items both horizontally and vertically */
+  height: auto;
+  /* Set a specific height for alignment to work */
+  grid-template-columns: repeat(3, 1fr);
+  /* Creates 3 equal columns */
+  gap: 5px;
+  /* Adds space between images */
+}
+
+.image-gallery img {
+  max-width: 100%;
+  height: 200px;
+  aspect-ratio: 1.8/1;
+}
+
+.ul{
+  color:white;
 }

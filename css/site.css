@@ -9,31 +9,22 @@ h1 {
   padding-top: 2%;
 }
 
-
-
-.div {
-  text-align: center;
-}
-
-
-.image-gallery {
-  display: grid;
-  place-items: center;
-  /* Centers items both horizontally and vertically */
-  height: auto;
-  /* Set a specific height for alignment to work */
-  grid-template-columns: repeat(3, 1fr);
-  /* Creates 3 equal columns */
-  gap: 5px;
-  /* Adds space between images */
-}
-
-.image-gallery img {
-  max-width: 100%;
-  height: 200px;
-  aspect-ratio: 1.8/1;
-}
-
 .ul{
   color:white;
 }
+
+.center-container {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  color: #ffffff; /* Sets text color to white */
+}
+
+/* To ensure button text color is white even with Bootstrap's default styles */
+.center-container .btn {
+  color: #ffffff;
+}
+
+.d-inline-flex{
+  padding-top: 2.5%;
+}
+

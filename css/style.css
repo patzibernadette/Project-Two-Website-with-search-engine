@@ -1,34 +1,30 @@
 body {
   font-family: "Sofia", sans-serif;
   color: white;
+  padding: 2.5%;
 }
 
 h1 {
   color: white;
   text-align: center;
-  padding-top: 2%;
-}
-
-.ul{
-  color:white;
-}
-
-.center-container {
-  display: flex;
-  justify-content: center; /* Centers content horizontally */
-  color: #ffffff; /* Sets text color to white */
-}
-
-/* To ensure button text color is white even with Bootstrap's default styles */
-.center-container .btn {
-  color: #ffffff;
-}
-
-.d-inline-flex{
   padding-top: 2.5%;
 }
 
-.id{
-  color: white;
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
+
+#results img{
+  width:200px;
+}
+
+
+
+
+
+
+
+
 

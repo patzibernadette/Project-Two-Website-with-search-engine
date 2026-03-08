@@ -20,12 +20,10 @@ h1 {
   width:200px;
 }
 
-/* Default styles (mobile first approach is recommended) */
 .container {
     width: 100%;
 }
 
-/* Media query for screens wider than 768px (tablets and desktops) */
 @media screen and (min-width: 768px) {
     .container {
         width: 80%;
@@ -34,9 +32,9 @@ h1 {
 }
 
 .spaced-image {
-  margin: 20px; /* Adds 20px of space outside on all sides */
-  padding: 10px; /* Adds 10px of space inside on all sides */
-  border: 1px solid #ccc; /* Optional: for demonstration of padding vs. margin */
+  margin: 20px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
 }
 
 
